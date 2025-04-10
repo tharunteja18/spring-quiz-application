@@ -10,6 +10,7 @@ A Spring Boot application for managing quizzes, using MySQL for storage. The app
 
 # How to run
 1. Clone the repository
-2. Build the project - using ./gradlew clean build
-3. Run the application - using ./gradlew bootRun
+2. In application.properties file give you DB credentials
+3. Build the project - using ./gradlew clean build
+4. Run the application - using ./gradlew bootRun
    
