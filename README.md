@@ -19,8 +19,8 @@ A Spring Boot application for managing quizzes, using MySQL for storage. The app
      - docker run -p 8080:8080 <use-the-image-name-you-provided-above>.
 
 # Note
-Make sure which build tool you are using and build the project accordingly like maven, gradle.
-Make sure MySQL is running on your local machine and accessible on port 3306.
-Use host.docker.internal only if you're on Docker Desktop (Windows/macOS).
-If you're on Linux, replace host.docker.internal with 172.17.0.1 or your host IP.
+- Make sure which build tool you are using and build the project accordingly like maven, gradle.
+- Make sure MySQL is running on your local machine and accessible on port 3306.
+- Use host.docker.internal only if you're on Docker Desktop (Windows/macOS).
+- If you're on Linux, replace host.docker.internal with 172.17.0.1 or your host IP.
    
