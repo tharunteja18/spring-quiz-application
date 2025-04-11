@@ -14,9 +14,9 @@ A Spring Boot application for managing quizzes, using MySQL for storage. The app
 3. Build the project - using ./gradlew build
      - This will generate a JAR file in the build/libs directory
 4. Now, build docker image using command
-     - docker build -t <image-name-you-want-to-provide> .
+     - docker build -t image-name-you-want-to-provide .
 5. run the container using command
-     - docker run -p 8080:8080 <use-the-image-name-you-provided-above>.
+     - docker run -p 8080:8080 use-the-image-name-you-provided-above
 
 # Note
 - Make sure which build tool you are using and build the project accordingly like maven, gradle.
